@@ -1,4 +1,4 @@
-addpath('D:\isumi\大四\有限元素法\matlab_FEM\Nonlinear_hypo\test_data')
+addpath('D:\isumi\大四\有限元素法\matlab_FEM\Nonlinear_hyper\test_data')
 
 Myfile=fopen("6-3.txt");
 [ndime,nnode,nelem,nelnd,npres,ntrac,mate,coor,conn,pres,trac]=Read_nl(Myfile);
